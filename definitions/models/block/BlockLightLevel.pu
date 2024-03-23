@@ -1,0 +1,7 @@
+@startuml BlockLightLevel
+
+class BlockLightLevel {
+    + value: number
+}
+
+@enduml

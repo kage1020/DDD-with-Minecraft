@@ -1,0 +1,9 @@
+@startuml BlockPos
+
+class BlockPos {
+    + x: number
+    + y: number
+    + z: number
+}
+
+@enduml

@@ -1,0 +1,7 @@
+@startuml BlockHardness
+
+class BlockHardness {
+    + value: number
+}
+
+@enduml

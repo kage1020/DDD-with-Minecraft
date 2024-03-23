@@ -1,0 +1,33 @@
+@startuml Block
+
+!include BlockId.pu
+!include BlockPos.pu
+!include BlockSound.pu
+!include BlockOpacity.pu
+!include BlockMaterial.pu
+!include BlockHardness.pu
+!include BlockResistance.pu
+!include BlockLightLevel.pu
+
+class Block << (R,red) RootEntity >> {
+    blockId: BlockId
+    name: string
+    position: BlockPos
+    sound: BlockSound
+    opacity: BlockOpacity
+    material: BlockMaterial
+    hardness: BlockHardness
+    resistance: BlockResistance
+    lightLevel: BlockLightLevel
+}
+
+Block *-down- BlockId
+Block *-down- BlockPos
+Block *-down- BlockSound
+Block *-down- BlockOpacity
+Block *-down- BlockMaterial
+Block *-down- BlockHardness
+Block *-down- BlockResistance
+Block *-down- BlockLightLevel
+
+@enduml

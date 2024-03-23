@@ -1,0 +1,21 @@
+{
+  "name": "ddd-with-minecraft",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@paralleldrive/cuid2": "^2.2.2",
+    "@prisma/client": "^5.11.0",
+    "lodash": "^4.17.21",
+    "reflect-metadata": "^0.2.1",
+    "tsyringe": "^4.8.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.0",
+    "@types/node": "^20.11.30",
+    "prisma": "^5.11.0",
+    "typescript": "^5.4.3",
+    "vitest": "^1.4.0"
+  }
+}

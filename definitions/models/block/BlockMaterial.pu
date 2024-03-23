@@ -1,0 +1,7 @@
+@startuml BlockMaterial
+
+class BlockMaterial {
+    + value: string
+}
+
+@enduml

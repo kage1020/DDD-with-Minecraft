@@ -1,0 +1,7 @@
+@startuml BlockResistance
+
+class BlockResistance {
+    + value: number
+}
+
+@enduml

@@ -1,0 +1,7 @@
+@startuml BlockOpacity
+
+class BlockOpacity {
+    + value: number
+}
+
+@enduml

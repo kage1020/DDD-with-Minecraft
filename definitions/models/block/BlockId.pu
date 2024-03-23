@@ -1,0 +1,7 @@
+@startuml BlockId
+
+class BlockId {
+    + value: string
+}
+
+@enduml
