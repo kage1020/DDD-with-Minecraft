@@ -1,1 +1,1 @@
-export enum Version {}
+export const Version = {} as const;
