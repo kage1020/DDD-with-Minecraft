@@ -6,10 +6,15 @@ export abstract class ValueObject<T, U> {
   protected readonly _value: T;
 
   protected constructor(value: T) {
+    if (!this.isValid(value)) {
+      throw new Error('Invalid value!');
+    }
     this._value = value;
   }
 
-  protected equals(object: ValueObject<T, U>): boolean {
+  protected abstract isValid(value: T): boolean;
+
+  protected isEqual(object: ValueObject<T, U>): boolean {
     return isEqual(this._value, object._value);
   }
 }

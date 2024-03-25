@@ -1,9 +1,0 @@
-@startuml BlockSound
-
-class BlockSound {
-    + name: string
-    + volume: number
-    + pitch: number
-}
-
-@enduml
